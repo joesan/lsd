@@ -11,6 +11,7 @@
 - [Description](#description)
 - [Screenshot](#screenshot)
 - [Installation](#installation)
+- [UnInstallation](#uninstallation)
 - [Configurations](#configurations)
   * [Required](#required)
   * [Optional](#optional)
@@ -119,6 +120,18 @@ cargo install --git https://github.com/Peltoche/lsd.git --branch master
 ### From Binaries
 
 The [release page](https://github.com/Peltoche/lsd/releases) includes precompiled binaries for Linux and macOS.
+
+## UnInstallation
+
+### On Ubuntu
+
+If you have installed it from the snap packages, you might have noticed [this issue](https://github.com/Peltoche/lsd/issues/392) with permissions on certain folders. So the solution is to uninstall ot from the snap packages and re-install from the .deb package:
+
+To remove lsd installed via snap:
+
+```
+sudo snap remove lsd
+```
 
 ## Configurations
 
